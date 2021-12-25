@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-            snParam(credentialsForPublishedApp: "PR_GitHub", instanceForPublishedAppUrl: "https://dev104977.service-now.com", appScope: "rhino.global")
+            snParam(credentialsForPublishedApp: "Party_Ready_QA_Cred", instanceForPublishedAppUrl: "https://dev104977.service-now.com", appScope: "rhino.global")
     }
 
     stages {
