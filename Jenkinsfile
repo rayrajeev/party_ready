@@ -11,7 +11,6 @@ pipeline {
         stage('preparation') {
             steps {
                 echo "Pipeline is running" // for debugging
-
                 snApplyChanges(appSysId: "${APPSYSID}", branchName: "${BRANCH}", url: "${TESTENV}", credentialsId: "${CREDENTIALS}")
             }
         }
