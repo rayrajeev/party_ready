@@ -44,7 +44,7 @@
     <div>
       <h1>Welcom to Party Ready Application</h1>
       <h2> Get dressed up and paint the town red</h2>
-      <h2> Version 6.0<h3>
+      <h2> Version 7.0<h3>
     </div>
   </div>
   <div ng-if="c.options.html" ng-bind-html="c.html"></div>
