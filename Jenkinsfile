@@ -7,15 +7,10 @@ pipeline {
         TESTENV = 'https://dev104977.service-now.com/'
     }
 
-    parameters {
-            snParam(credentialsForPublishedApp: "PartyReadySN", instanceForPublishedAppUrl: "", appScope: "rhino.global")
-    }
-
     stages {
         stage('preparation') {
             steps {
-                echo "${params.snParam}" // for debugging
-
+                echo "Pipeline is running" // for debugging
                 snApplyChanges(appSysId: "${APPSYSID}", branchName: "${BRANCH}", url: "${TESTENV}", credentialsId: "${CREDENTIALS}")
             }
         }
