@@ -4,7 +4,7 @@ pipeline {
         BRANCH = "${BRANCH_NAME}"
         APPSYSID = 'edf27aa21ba0011045706464604bcb38'
         CREDENTIALS = 'PartyReadySN'
-        TESTENV = 'https://dev104977.service-now.com/'
+        TESTENV = 'https://dev57324.service-now.com//'
     }
 
     stages {
