@@ -3,11 +3,12 @@
         <active>true</active>
         <condition_script/>
         <description/>
-        <event_name>Party Host Changed</event_name>
+        <event_name>activate.life.cycle.migration</event_name>
         <name>Update all guest</name>
         <order>100</order>
         <script><![CDATA[var partyReady = new PartyReady_SI();
-partyReady.partyHostChanged();]]></script>
+partyReady.partyHostChanged();
+gs.log("All guests are updated");]]></script>
         <synchronous>false</synchronous>
         <sys_class_name>sysevent_script_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -15,7 +16,7 @@ partyReady.partyHostChanged();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d14b3ddc9701011040d0b4b3f153af4a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Update all guest</sys_name>
         <sys_overrides/>
         <sys_package display_value="PartyReady" source="edf27aa21ba0011045706464604bcb38">edf27aa21ba0011045706464604bcb38</sys_package>
@@ -23,6 +24,6 @@ partyReady.partyHostChanged();]]></script>
         <sys_scope display_value="PartyReady">edf27aa21ba0011045706464604bcb38</sys_scope>
         <sys_update_name>sysevent_script_action_d14b3ddc9701011040d0b4b3f153af4a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-10 16:25:24</sys_updated_on>
+        <sys_updated_on>2022-01-10 17:52:18</sys_updated_on>
     </sysevent_script_action>
 </record_update>
