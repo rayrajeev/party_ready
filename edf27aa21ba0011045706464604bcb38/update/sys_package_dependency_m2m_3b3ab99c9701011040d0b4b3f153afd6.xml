@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Management Basics" source="com.snc.service">10f0aecba9263010c0a065f439e66199</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-10 16:18:26</sys_created_on>
+        <sys_id>3b3ab99c9701011040d0b4b3f153afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="PartyReady" source="edf27aa21ba0011045706464604bcb38">edf27aa21ba0011045706464604bcb38</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-10 16:18:26</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
